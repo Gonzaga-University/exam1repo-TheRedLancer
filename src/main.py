@@ -16,6 +16,7 @@ if __name__ == "__main__":
     print("Starting program")
 
     adder = Adder(sys.argv[1], sys.argv[2])
-    print(adder.getSum())
+    inputSum = adder.getSum()
+    print(inputSum)
 
     print("Done with program")
