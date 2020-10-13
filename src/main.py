@@ -2,6 +2,7 @@
 
 import sys
 
+
 class Adder():
     def __init__(self, val1, val2):
         self.val1 = val1
@@ -14,7 +15,7 @@ class Adder():
 if __name__ == "__main__":
     print("Starting program")
 
-    adder = Adder(10, 20)
+    adder = Adder(sys.argv[1], sys.argv[2])
     print(adder.getSum())
 
     print("Done with program")
